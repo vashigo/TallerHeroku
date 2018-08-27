@@ -1,42 +1,48 @@
-# TAREA 1 AREM (MVNGit)
+# TAREA 2 AREM (Introduccion a heroku)
 
 Este es un trabajo de uso academico. This is a program to calculate the mean and standard deviation of a set of n real
-numbers implemented with  Java, Maven,spark and GITHUB
+numbers implemented with  Java, Maven,spark, GITHUB y Heroku
 
 ## EMPEZAR
 
-# About this project
+Copie el proyecto via git clone en cualquier diretorio para empezar a trabajar:
+```
+git clone https://github.com/vashigo/Tarea-1-MVNGit.git
+```
 
-This project is a simple demo web application using the
-[Spark framework](http://sparkjava.com/). It runs on Java 8 and requires the
-Spark framework in order to run.
+### Prerequisitos
 
-# How do I build this project?
+Tener instalado Java jdk versiones 7+, Maven comandos y git
 
-You can easily build the code directly from within your IDE of choice (I'm
-personally rather fond of [Eclipse](http://www.eclipse.org)), using its build
-features (in Eclipse, right click the project and select *Run As* ->
-*Maven build*, type *package* into the *Goals* field, then *Run*). If you
-prefer doing stuff more old school, you can use the command line to build the
-project as well. To do so, you need to have Maven installed on your machine.
-Navigate to your project location. Then, simply type
+### Instalando
 
-    mvn package
+1. Ejecutar en terminal:
 
-in your terminal. Your generated JAR files can be found as
-*./target/SparkWebProject-1.0.0.jar* and
-*./target/SparkWebProject-1.0.0-with-dependencies.jar*.
+```
+$$ mvn package
+```
+2.(opcional):
+si requiere la documnetacion del codigo
 
-# How do I run this project?
+```
+mvn javadoc:javadoc
+```
+### Ejecutando
 
-The easiest way of running the code is directly from within your IDE of choice,
-simply by hitting the *Run* button (in Eclipse, that is). If you prefer running
-your code from the command line, navigate to the project location and type
+2. (Demostracion):
+  compile el proyecto en terminal desde la carpeta raiz ejecutando la siguiente linea:
+  
+```
+java -jar target/SparkWebApp-1.0.0-jar-with-dependencies.jar
+  
+```
 
-    java -jar target/SparkWebProject-1.0.0-with-dependencies.jar
-
-Don't forget to kill the process when done (using the stop button in the
-Eclipse console, or by hitting ctrl-c in the terminal).
+3. (server):
+una vez compilado el programa se ejecuta en el puerto 4567,para probarlo vaya a esta direccion desde su navegador:
+```
+http://localhost:4567/inputdata
+  
+```
 
 
 ## Autor
