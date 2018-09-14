@@ -1,13 +1,12 @@
-# TAREA 2 AREM (Introduccion a heroku)
+# PARCIAL PRACTICO AREM 1
 
-Este es un trabajo de uso academico. This is a program to calculate the mean and standard deviation of a set of n real
-numbers implemented with  Java, Maven,spark, GITHUB y Heroku
+Ervicio WEB (puede usar Spark o Sockets) que reciba una lista de números y retorne una estructura JSON con: La lista de números, el máximo, el mínimo, la sumatoria y la multiplicatoria.
 
 ## EMPEZAR
 
 Copie el proyecto via git clone en cualquier diretorio para empezar a trabajar:
 ```
-git clone https://github.com/vashigo/Tarea-1-MVNGit.git
+https://github.com/vashigo/parcialarem.git
 ```
 
 ### Prerequisitos
