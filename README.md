@@ -1,6 +1,7 @@
-# PARCIAL PRACTICO AREM 1
+# TALLER HEROKU
 
-Ervicio WEB (puede usar Spark o Sockets) que reciba una lista de números y retorne una estructura JSON con: La lista de números, el máximo, el mínimo, la sumatoria y la multiplicatoria.
+Este es un trabajo de uso academico. This is a program to calculate the mean and standard deviation of a set of n real
+numbers implemented with  Java, Maven,spark, GITHUB y Heroku
 
 ## EMPEZAR
 
